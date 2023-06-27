@@ -9,7 +9,7 @@ This code will read a remote sitemap index file, process it and send the results
 In `package.json`, edit the following line:
 
 ```
- "seo:index-now:custom": "HOST=www.yourdomain.tld SITEMAP_PATH=/sitemap.xml KEY=ad8******90ab node scripts/index-now.mjs"
+ "seo:index-now:custom": "HOST=www.yourdomain.tld SITEMAP_PATH=/sitemap.xml KEY=ad********0eb node scripts/index-now.mjs"
 ```
 
 Add your `HOST`, `SITEMAP_PATH` and IndexNow `KEY`
@@ -36,7 +36,7 @@ It will send a separate submission to Bing for each sitemap that is found in the
 
 If you cannot add the key file in the root directory, but can add redirects.
 
-Set a permanent redirect from `/ad8******90ab.txt` to `/path/to/ad8******90ab.txt`
+Set a permanent redirect from `/ad********0eb.txt` to `/path/to/ad********0eb.txt`
 
 ### Example using Scroll Viewport
 
@@ -51,13 +51,13 @@ We're using the "Hero Layout" template for our "Content Source" pages, sop the a
 Upon publish with Scroll Viewport, my attachment that was published in Confluence here:
 
 ```
-https://dsapps.atlassian.net/wiki/download/attachments/4851237027/ad82765dd09f4b659764deea744d90eb.txt
+https://dsapps.atlassian.net/wiki/download/attachments/4851237027/ad********0eb.txt
 ```
 
 was available in my Scroll Viewport site at:
 
 ```
-https://help.dsapps.dev/__attachments/4851237027/ad82765dd09f4b659764deea744d90eb.txt
+https://help.dsapps.dev/__attachments/4851237027/ad********0eb.txt
 ```
 
 Note that in this case `4851237027` is the `contentId/pageId` of the parent page or blogpost for the attachment.
@@ -67,13 +67,13 @@ So all that was required was a permanent redirect –
 From:
 
 ```
-https://help.dsapps.dev/ad82765dd09f4b659764deea744d90eb.txt
+https://help.dsapps.dev/ad********0eb.txt
 ```
 
 To:
 
 ```
-https://help.dsapps.dev/__attachments/4851237027/ad82765dd09f4b659764deea744d90eb.txt
+https://help.dsapps.dev/__attachments/4851237027/ad********0eb.txt
 ```
 
 Then a republish.
@@ -100,8 +100,8 @@ Reading remote sitemap https://help.dsapps.dev/table-from-csv-confluence/sitemap
 Number of URLs:  47
 {
   host: 'help.dsapps.dev',
-  key: 'ad********************0eb',
-  keyLocation: 'https://help.dsapps.dev/ad********************0eb.txt',
+  key: 'ad********0eb',
+  keyLocation: 'https://help.dsapps.dev/ad********0eb.txt',
   urlList: [
     'https://help.dsapps.dev/google-analytics-in-confluence/where-is-the-data-for-the-app-stored-universal-ana',
     'https://help.dsapps.dev/google-analytics-in-confluence/analytics-reporting-features-universal-analytics',
@@ -155,8 +155,8 @@ Number of URLs:  47
 Number of URLs:  25
 {
   host: 'help.dsapps.dev',
-  key: 'ad********************0eb',
-  keyLocation: 'https://help.dsapps.dev/ad********************0eb.txt',
+  key: 'ad********0eb',
+  keyLocation: 'https://help.dsapps.dev/ad********0eb.txt',
   urlList: [
     'https://help.dsapps.dev/bi-dashboards-in-confluence/migrating-between-server-data-center-and-cloud',
     'https://help.dsapps.dev/bi-dashboards-in-confluence/qlik',
@@ -188,8 +188,8 @@ Number of URLs:  25
 Number of URLs:  7
 {
   host: 'help.dsapps.dev',
-  key: 'ad********************0eb',
-  keyLocation: 'https://help.dsapps.dev/ad********************0eb.txt',
+  key: 'ad********0eb',
+  keyLocation: 'https://help.dsapps.dev/ad********0eb.txt',
   urlList: [
     'https://help.dsapps.dev/chemistry-toolkit-confluence/3d-molecule-macro-examples',
     'https://help.dsapps.dev/chemistry-toolkit-confluence/migrating-between-confluence-server-data-center-an',
@@ -203,8 +203,8 @@ Number of URLs:  7
 Number of URLs:  22
 {
   host: 'help.dsapps.dev',
-  key: 'ad********************0eb',
-  keyLocation: 'https://help.dsapps.dev/ad********************0eb.txt',
+  key: 'ad********0eb',
+  keyLocation: 'https://help.dsapps.dev/ad********0eb.txt',
   urlList: [
     'https://help.dsapps.dev/forms-surveys-confluence/forms-surveys-in-confluence',
     'https://help.dsapps.dev/forms-surveys-confluence/surveyplanet-forms-surveys-in-confluence',
@@ -233,8 +233,8 @@ Number of URLs:  22
 Number of URLs:  27
 {
   host: 'help.dsapps.dev',
-  key: 'ad********************0eb',
-  keyLocation: 'https://help.dsapps.dev/ad********************0eb.txt',
+  key: 'ad********0eb',
+  keyLocation: 'https://help.dsapps.dev/ad********0eb.txt',
   urlList: [
     'https://help.dsapps.dev/google-analytics-in-jira/creating-groups-for-use-in-jira',
     'https://help.dsapps.dev/google-analytics-in-jira/things-that-don-t-work',
@@ -268,8 +268,8 @@ Number of URLs:  27
 Number of URLs:  14
 {
   host: 'help.dsapps.dev',
-  key: 'ad********************0eb',
-  keyLocation: 'https://help.dsapps.dev/ad********************0eb.txt',
+  key: 'ad********0eb',
+  keyLocation: 'https://help.dsapps.dev/ad********0eb.txt',
   urlList: [
     'https://help.dsapps.dev/looker-studio-in-confluence/example-report-incorrect-url-web-address',
     'https://help.dsapps.dev/looker-studio-in-confluence/example-report-belgium-covid-19-dashboard',
@@ -290,8 +290,8 @@ Number of URLs:  14
 Number of URLs:  3
 {
   host: 'help.dsapps.dev',
-  key: 'ad********************0eb',
-  keyLocation: 'https://help.dsapps.dev/ad********************0eb.txt',
+  key: 'ad********0eb',
+  keyLocation: 'https://help.dsapps.dev/ad********0eb.txt',
   urlList: [
     'https://help.dsapps.dev/table-from-csv-confluence/introduction',
     'https://help.dsapps.dev/table-from-csv-confluence/',
@@ -301,8 +301,8 @@ Number of URLs:  3
 Number of URLs:  4
 {
   host: 'help.dsapps.dev',
-  key: 'ad********************0eb',
-  keyLocation: 'https://help.dsapps.dev/ad********************0eb.txt',
+  key: 'ad********0eb',
+  keyLocation: 'https://help.dsapps.dev/ad********0eb.txt',
   urlList: [
     'https://help.dsapps.dev/github-gists-confluence/example-csv',
     'https://help.dsapps.dev/github-gists-confluence/migrating-between-server-data-center-and-cloud',
@@ -313,8 +313,8 @@ Number of URLs:  4
 Number of URLs:  8
 {
   host: 'help.dsapps.dev',
-  key: 'ad********************0eb',
-  keyLocation: 'https://help.dsapps.dev/ad********************0eb.txt',
+  key: 'ad********0eb',
+  keyLocation: 'https://help.dsapps.dev/ad********0eb.txt',
   urlList: [
     'https://help.dsapps.dev/cloud-macros-bitbucket-confluence/bitbucket-commit-macro',
     'https://help.dsapps.dev/cloud-macros-bitbucket-confluence/bitbucket-issues-macro',
@@ -329,8 +329,8 @@ Number of URLs:  8
 Number of URLs:  2
 {
   host: 'help.dsapps.dev',
-  key: 'ad********************0eb',
-  keyLocation: 'https://help.dsapps.dev/ad********************0eb.txt',
+  key: 'ad********0eb',
+  keyLocation: 'https://help.dsapps.dev/ad********0eb.txt',
   urlList: [
     'https://help.dsapps.dev/atlassian-apps-shared-documentation/',
     'https://help.dsapps.dev/atlassian-apps-shared-documentation/we-ran-into-trouble-hiccup'
