@@ -1,0 +1,19 @@
+{
+  "name": "sitemap-to-index-now",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Read a remote sitemap and push updates to Bing/IndexNow",
+  "author": "david@dsapps.dev",
+  "keywords": [
+    "bing",
+    "indexnow"
+  ],
+  "scripts": {
+    "seo:index-now": "node scripts/index-now.mjs",
+    "seo:index-now:custom": "HOST=www.yourdomain.tld SITEMAP_PATH=/sitemap.xml KEY=ad8******90ab node scripts/index-now.mjs"
+  },
+  "dependencies": {
+    "cross-fetch": "^3.1.6",
+    "xml-js": "^1.6.11"
+  }
+}
