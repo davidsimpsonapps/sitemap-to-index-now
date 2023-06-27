@@ -60,6 +60,8 @@ was available in my Scroll Viewport site at:
 https://help.dsapps.dev/__attachments/4851237027/ad82765dd09f4b659764deea744d90eb.txt
 ```
 
+Note that in this case `4851237027` is the `contentId/pageId` of the parent page or blogpost for the attachment.
+
 So all that was required was a permanent redirect –
 
 From:
