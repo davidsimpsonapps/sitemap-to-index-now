@@ -60,7 +60,7 @@ was available in my Scroll Viewport site at:
 https://help.dsapps.dev/__attachments/4851237027/ad82765dd09f4b659764deea744d90eb.txt
 ```
 
-So all that was required was a permanent redirect–
+So all that was required was a permanent redirect –
 
 From:
 
@@ -76,7 +76,11 @@ https://help.dsapps.dev/__attachments/4851237027/ad82765dd09f4b659764deea744d90e
 
 Then a republish.
 
-The following is an example of the messages displayed upon running:
+# Publishing
+
+When you run `npm run seo:index-now:custom` there will be some output in the terminal.
+
+Here's an example. Look for `Submitted to IndexNow: https://www.bing.com/indexnow • HTTP Response Code: 200` at the end for a successful outcome:
 
 ```
 Reading remote sitemap https://help.dsapps.dev/sitemap.xml
